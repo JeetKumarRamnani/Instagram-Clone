@@ -25,8 +25,8 @@
             <i class="fa-brands fa-facebook-messenger text-white"></i>
           </div>
         </div>
-        <nav class="stories-container flex gap-5 overflow-hidden">
-          <div class="user-image relative inline-block">
+        <nav class="stories-container flex gap-5 overflow-x-auto">
+          <div class="user-image relative inline-block flex-shrink-0">
             <img
               class="rounded-full w-16 h-16 object-cover"
               src="https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -37,7 +37,9 @@
             ></i>
             <p>Your Story</p>
           </div>
-          <div class="other-users flex overflow-hidden gap-5">
+          <div
+            class="other-users flex flex-nowrap overflow-x-auto gap-5 flex-shrink-0"
+          >
             <div class="user">
               <img
                 class="rounded-full w-16 h-16 object-cover"
